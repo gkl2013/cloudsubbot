@@ -6,7 +6,7 @@
 最新镜像版本地址：[https://cnb.cool/cloud115/cloudsubbot/-/packages/docker/cloudsubbot](https://cnb.cool/cloud115/cloudsubbot/-/packages/docker/cloudsubbot)
 
 ```
-docker pull docker.cnb.cool/cloud115/cloudsubbot:1.0.6
+docker pull docker.cnb.cool/cloud115/cloudsubbot:latest
 ```
 
 运行：
@@ -18,7 +18,7 @@ docker-compose
 ```
 services:
   cloudsubbot:
-    image: docker.cnb.cool/cloud115/cloudsubbot:1.0.6
+    image: docker.cnb.cool/cloud115/cloudsubbot:latest
     platform: linux/amd64
     container_name: cloudsubbot
     restart: unless-stopped
