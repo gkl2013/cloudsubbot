@@ -27,6 +27,7 @@ services:
     environment:
       - ENV=production
       - DB_PATH=/database/sqlite.db
+      - TZ=Asia/Shanghai
     volumes:
       - ./database:/database
 ```
